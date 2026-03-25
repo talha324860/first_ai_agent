@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# API Keys (CRITICAL)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/
+# Config dosyasindaki tema ayarlarını git'e göndermek isteyebilirsin, 
+# ama eğer gizli bilgi (örn. DB şifresi) koysaydın bunu da gizlemek gerekirdi.
+# Şimdilik tema ayarları kalsın diye yorum satırına alıyorum:
+# .streamlit/
+
+# Test ve Log Dosyaları
+output.txt
+output2.txt
